@@ -1,0 +1,68 @@
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Error Message Styles */
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+/* Centering Text */
+.center-text {
+    text-align: center;
+    margin-top: 20px; /* Add some space above */
+    font-size: 16px;
+}
+
+/* Link Styling */
+.center-text a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.center-text a:hover {
+    text-decoration: underline;
+}
